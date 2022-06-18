@@ -132,8 +132,8 @@ def game_over():
     canvas.itemconfig(game, text="Game over!")
 
 
-Barra = Barra(canvas, "orange")  # type: ignore
-Bola = Bola(canvas, Barra, "purple")  # type: ignore
+Barra = Barra(canvas, "blue")  # type: ignore
+Bola = Bola(canvas, Barra, "red")  # type: ignore
 
 
 score_now = canvas.create_text(430, 20, text="Pontos: " + str(count), fill = "green", font=("Arial", 16))
